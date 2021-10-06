@@ -1,0 +1,34 @@
+<div class="wrapper">
+ 
+
+  <div class="container " style= "color: darkgrey" >
+    <div class="card"  style="padding: 10px; width: 15%; height: 20%; background-color: black"> 
+     
+      <p class="card-title">CUSTOMERS</p>
+  
+      <p class="count" style="color: darkgrey;"> {{customersCount}} </p>
+    </div>
+    <div class="card "  style="padding: 10px; width: 15%; height: 20%;background-color: black">
+      <p class="card-title">WASHERS</p>
+      <p class="count" style="color: darkgrey;"> {{washersCount}} </p>
+    </div>
+    <div class="card" style="padding: 10px; width: 15%; height: 20%;background-color: black">
+      <p class="card-title" >CMP. ORDERS</p>
+      <p class="count" style="color: darkgrey;">{{completedordersCount}}</p>
+    </div>
+    <div class="card" style="padding: 10px; width: 15%; height: 20%;background-color: black">
+      <p class="card-title " >ACTIVE SERVICES</p>
+      <p class="count" style="color: darkgrey;">{{activeServicesCount}}</p>
+    </div>
+  </div>
+  <br>
+  <div class="content">
+    <ul>
+        <li>Admin Dashboard with features to add new plans, addons, edit them and remove them as per business goals.</li> <br>
+        <li>Approve Washers as per demand and quality. </li>  <br> <br>
+        <button class="btn btn-info" routerLink="../washerApproval">Approve Washers</button> &nbsp;
+        <button class="btn btn-info" routerLink="../adminPlans">Manage Plans</button>
+    </ul>
+
+
+</div>
